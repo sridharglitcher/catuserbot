@@ -79,7 +79,7 @@ async def bot_start(event):
         start_msg = f"Hey! 👤{_format.mentionuser(chat.first_name , chat.id)},\
                     \nI am {_format.mentionuser(user.first_name , user.id)}'s assistant bot.\
                     \nYou can contact to my master from here.\
-                    \n\nPowered by [TeleRoiduserbot](https://github.com/TeleRoid-Userbot)"
+                    \n\nPowered by [𝕋𝕖𝕝𝕖ℝ𝕠𝕚𝕕 ℙ𝕣𝕠𝕛𝕖𝕔𝕥𝕤](https://t.me/TheTeleRoid)"
         buttons = [
             (
                 Button.url("Repo", "https://github.com/P-Phreak"),
@@ -92,7 +92,14 @@ async def bot_start(event):
     else:
         start_msg = "Hey Master!\
             \nHow can i help you ?"
-        buttons = None
+        buttons = [
+            (
+                Button.url("🧲Updates", "https://t.me/TeleRoidGroup") 
+                Button.url"😇Support",
+                          "https://t.me/TeleRoid14", 
+                ), 
+            ) 
+        ]
     try:
         await event.client.send_message(
             chat.id,
