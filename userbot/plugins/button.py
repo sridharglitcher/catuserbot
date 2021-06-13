@@ -93,7 +93,7 @@ async def _(event):
         "usage": [
             "{tr}ibutton <text> [Name on button]<buttonurl:link you want to open>",
         ],
-        "examples": "{tr}ibutton test [google]<buttonurl:https://www.google.com> [catuserbot]<buttonurl:https://t.me/catuserbot17:same> [support]<buttonurl:https://t.me/catuserbot_support>",
+        "examples": "{tr}ibutton test [google]<buttonurl:https://www.google.com> [TeleRoidbot]<buttonurl:https://t.me/TeleRoidGroup:same> [support]<buttonurl:https://t.me/TeleRoid14>",
     },
 )
 async def _(event):
